@@ -98,7 +98,7 @@ export function getHeaders() {
   let headers: Record<string, string> = {
     "Content-Type": "application/json",
     "x-requested-with": "XMLHttpRequest",
-    "mj-api-secret': 'd9713b28-289d-4945-a22c-b3e457ad827a",
+    "mj-api-secret": "d9713b28-289d-4945-a22c-b3e457ad827a",
   };
 
   const makeBearer = (token: string) => `Bearer ${token.trim()}`;
